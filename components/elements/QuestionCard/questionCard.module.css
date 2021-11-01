@@ -1,0 +1,10 @@
+.cardBase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  border: 2px solid dimgray;
+  border-radius: 15px;
+  background: honeydew;
+  margin: 1rem;
+}

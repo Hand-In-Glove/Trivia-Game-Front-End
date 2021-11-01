@@ -1,0 +1,4 @@
+.choiceGrid {
+  display: flex;
+  flex-wrap: wrap;
+}

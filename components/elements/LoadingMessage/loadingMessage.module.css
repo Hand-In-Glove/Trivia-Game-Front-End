@@ -1,0 +1,49 @@
+.base {
+  margin: 1rem;
+  text-align: center;
+  max-width: 85vw;
+}
+
+.dot1 {
+  animation: fade1 1s ease-in infinite reverse;
+}
+.dot2 {
+  animation: fade2 1s ease-in infinite reverse;
+}
+.dot3 {
+  animation: fade3 1s ease-in infinite reverse;
+}
+
+@keyframes fade1 {
+  0% {
+    color: whitesmoke;
+  }
+  50% {
+    color: gray;
+  }
+  100% {
+    color: black;
+  }
+}
+@keyframes fade2 {
+  0% {
+    color: gray;
+  }
+  50% {
+    color: black;
+  }
+  100% {
+    color: whitesmoke;
+  }
+}
+@keyframes fade3 {
+  0% {
+    color: black;
+  }
+  50% {
+    color: whitesmoke;
+  }
+  100% {
+    color: gray;
+  }
+}
